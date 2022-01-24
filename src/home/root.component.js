@@ -7,18 +7,7 @@ import {
   Link,
   Redirect
 } from "react-router-dom";
-
-/* you'll need this CSS somewhere
-.fade-enter {
-  opacity: 0;
-  z-index: 1;
-}
-
-.fade-enter.fade-enter-active {
-  opacity: 1;
-  transition: opacity 250ms ease-in;
-}
-*/
+import { getUserName } from '../imports/userImports'
 
 const AnimationExample = () => (
   <Router>
@@ -37,6 +26,11 @@ const AnimationExample = () => (
             <NavLink to="/home/rgb/33/150/243">Blue</NavLink>
             <NavLink to="/home/rgb/240/98/146">Pink</NavLink>
           </ul>
+          
+          <div style={styles.content}>
+            <hr/>
+            userName: {getUserName()}
+          </div>
 
           <div style={styles.content}>
             <TransitionGroup>

@@ -8,15 +8,18 @@
     "build": "webpack --config webpack.config.js -p"
   },
   "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@reduxjs/toolkit": "^1.7.1",
     "angular": "^1.7.1",
     "angular-ui-router": "^1.0.18",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^4.3.1",
     "react-transition-group": "^2.3.1",
     "single-spa": "^3.9.1",
     "single-spa-angularjs": "^3.0.1",
-    "single-spa-react": "^2.5.4"
+    "single-spa-react": "^4.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
