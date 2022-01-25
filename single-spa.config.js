@@ -6,7 +6,6 @@ registerApplication('home', () => import('./src/home/home.app.js'), (location) =
 registerApplication('react', () => import('./src/react/react.app.js'), pathPrefix('/react'));
 registerApplication('angularJS', () => import('./src/angularJS/angularJS.app'), pathPrefix('/angularJS'));
 
-
 start();
 
 function pathPrefix(prefix) {

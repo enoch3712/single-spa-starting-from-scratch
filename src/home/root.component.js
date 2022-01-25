@@ -7,7 +7,7 @@ import {
   Link,
   Redirect
 } from "react-router-dom";
-import { getUserName } from '../imports/userImports'
+import { getUserName } from '../imports/userImports';
 
 const AnimationExample = () => (
   <Router>
